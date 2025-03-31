@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#themeSwitcher button {
+margin: 5px;
+padding: 10px 20px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+#themeSwitcher button:hover {
+    background-color: #a9bfec;
+}
+
+#customColors {
+    margin: 20px 0;
+    background-color: #f3e7e7;
+    color: rgb(144, 135, 232);
+}
+
+.hidden {
+    display: none;
+}
+
+.light-theme {
+    background-color: #f3e7e7;
+    color: #0b0808;
+}
+
+.dark-theme {
+    background-color: #0b0808;
+    color: #f7e2e2;
+}
